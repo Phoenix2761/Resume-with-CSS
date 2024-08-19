@@ -296,7 +296,7 @@ span {
 }
 
 .aboutitem {
-    width: 70%;
+    width: 150%;
 }
 
 .abouttitle {
@@ -312,6 +312,10 @@ span {
 
 label {
     display: block;
+}
+
+.contacthr {
+    margin: 1vh 0 3vh 0;
 }
 
 footer {
@@ -709,9 +713,15 @@ svg {
 
     .aboutitem li {
         font-size: 200%;
-        width: 50%;
+        width: fit-content;
     }
 
+    .aboutitem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }    
+    
     .profile {
         display: grid;
         grid-template-columns: 1fr 2fr;
