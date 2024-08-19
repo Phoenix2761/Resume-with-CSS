@@ -16,7 +16,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(background2.jpg);
+    background-image: url(./assets/background2.jpg);
     background-size: cover;
 }
 
@@ -304,20 +304,20 @@ span {
     text-align: center;
     width: 100%;
 }
-
+/*  */
 .abouttext {
     font-size: 150%;
     margin: 0 0 3% 5%;
 }
-
+/*  */
 label {
     display: block;
 }
-
+/*  */
 .contacthr {
     margin: 1vh 0 3vh 0;
 }
-
+/*  */
 footer {
     background-color: #4E31AA;
     display: flex;
@@ -706,11 +706,16 @@ svg {
         width: 100%;
     }
 
-    .abouttext {
-        font-size: 10%;
-        word-wrap: break-word;
+    .aboutitem h2 {
+        text-align: center;
+        margin-top: 5%;
     }
 
+    .abouttext {
+        font-size: 6vw;
+        word-wrap: break-word;
+    }
+    /*  */
     .aboutitem li {
         font-size: 200%;
         width: fit-content;
@@ -719,9 +724,9 @@ svg {
     .aboutitem {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-    }    
-    
+        align-items: center;
+    }
+
     .profile {
         display: grid;
         grid-template-columns: 1fr 2fr;
