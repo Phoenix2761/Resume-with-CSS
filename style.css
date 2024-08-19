@@ -1,0 +1,837 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #3795BD;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 100vh;
+}
+
+.hsection{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/background2.jpg);
+    background-size: cover;
+}
+
+
+h1 {
+    font-family: 'Libre Caslon Text', serif;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 2px;
+    margin: 0 0 1% 0;
+}
+
+a {
+    font-family: "Gemunu Libre", sans-serif;
+}
+
+p {
+    font-family: "Gemunu Libre", sans-serif;
+    font-size: 2rem;
+    /* color: #ffffff; */
+    margin: 0;
+}
+
+.titletext {
+    /* display: inline-block; */
+    font-family: 'Libre Caslon Text', serif;
+    width: 50vw;
+    text-align: center;
+}
+
+.whitetitle {
+    color: #F7F7F8;
+}
+
+main{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F7F8;
+}
+
+.msection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* padding-top: 40px; */
+}
+
+.educationdiv ul li {
+    list-style: none;
+}
+
+hr {
+    width: 80px;
+    border-width: 10px 0 0 0;
+    border-style: dotted;
+    border-color: hsl(198, 55%, 48%, 20%);
+    margin: 5vh 0 5vh 0;
+}
+
+.bar {
+    margin: 60px 0 38px 0;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0 0 0;
+}
+
+.profilepic {
+    height: 200px;
+    width: 200px;
+    /* display: inline-block; */
+    margin-right: 35px;
+    border-radius: 50%;
+}
+
+#titlep {
+    width: 50vw;
+    text-align: start;
+}
+
+h2 {
+    width: 100%;
+    margin: 0;
+    font-size: 40px;
+}
+
+ul {
+    margin: 16px 0 0 0;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+li {
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.expdiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0; 
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.exptitle {
+    text-align: center;
+    width: 100%;
+    margin: 0 0 35px 0;
+}
+
+.expitems {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.explogo {
+    height: 200px;
+    width: 200px;
+    margin-right: 25px;
+    border-radius: 50%;
+}
+
+.edimg {
+    height: 4%;
+    width: 4%;
+    margin: 0;
+    vertical-align: middle;
+    display: inline;
+}
+
+.educationdiv span {
+    display: inline;
+}
+
+.expp {
+    width: 300px;
+    font-size: 40px;
+    text-align: left;
+}
+
+.skillsdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 100%;
+    width: 100%;
+}
+
+
+.skillitem {
+    display: flex;
+    justify-content: center;
+}
+
+.sitem1 {
+    margin: 0 0 40px 0;
+}
+
+.sitem2 {
+    margin: 40px 0 0 0;
+}
+
+.skillsimg {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 25px 0 0;
+}
+
+.skillstitle {
+    margin: 0 0 55px 0;
+}
+
+.skillsh {
+    font-size: 40px;
+    text-align: start;
+    width: 50vw;
+}
+
+.skillsubitem {
+    font-size: 35px;
+}
+
+span {
+    height: 148px;
+    /* flex-basis: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.projects {
+    /* background-color: #3795BD;   */
+    padding-top: 30px;
+}
+
+.centeredtitle {
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+.projectdiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+    width: 70vw;
+}
+
+.projectitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    width: 100%;
+}
+
+/* .projectitem p {
+    width: 100%;
+} */
+
+.morediv {
+    justify-content: center;
+}
+
+.projectitem p {
+    margin: 12px 0 0 0;
+    width: 250px;
+} 
+
+.projectimg {
+    height: 250px;
+    object-fit: cover;
+}
+
+.projectbtn {
+    height: 40px;
+    width: 200px;
+    background-color: #F7F7F8;
+    color: #3795BD;
+    border: none;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    text-decoration: none;
+    border: none;
+    /* border-radius: 100px; */
+    /* margin-bottom: 150px; */
+}
+
+.projectbtn:hover {
+    background-color: #eaeaea;
+}
+
+.projecthr {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+
+.section3 {
+    background-color: #F7F7F8;
+    color: #3795BD;
+    width: 100%;
+}
+
+.aboutitem {
+    width: 70%;
+}
+
+.abouttitle {
+    margin: 0 0 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.abouttext {
+    font-size: 1%;
+    margin: 0 0 8px 0;
+}
+
+label {
+    display: block;
+}
+
+footer {
+    background-color: #4E31AA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-self: end;
+    height: 18vh;
+}
+
+.footeritems {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+ 
+.fitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    width: 10vw;
+    color: #F7F7F8;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:700;
+}
+
+svg {
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.copyright {
+    font-size: 15px;
+    color: #F7F7F8;
+}
+
+/* @media (min-width: 1400px) {
+    svg {
+        height: 30px;
+        width: 30px;
+    }
+
+    .fspan {
+        
+    }
+} */
+
+@media (max-width: 1400px) {
+    header {
+        height: 60vh;
+    }
+
+    /* p {
+        font-size: 35px;
+    } */
+
+    li {
+        font-size: 35px;
+    }
+
+    .explogo {
+        height: 200px;
+        width: 100px;
+    }
+
+    .edimg {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        vertical-align: middle;
+        margin-right: 3%;
+    }
+
+    .skillimg {
+        margin: 0;
+    }
+
+    span, .skillsh {
+        width: fit-content;
+    }
+
+    .educationdiv span {
+        display: inline-flex;
+        height: fit-content;
+        width: 50%;
+        font-size: 85%;
+        padding: 0 0 20px 0;
+    }
+
+    .educationdiv li {
+        height: 200px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skillitem {
+        width: fit-content;
+        padding: 30px;
+    }
+
+    .sitem1 {
+        margin: 0;
+    }
+
+    .sitem2 {
+        margin: 0;
+    }
+
+    .skillshr {
+        margin: 3vh 0 3vh 0;
+    }
+
+    .projects, .projectdiv {
+        width: 90%;
+    }
+
+    .aboutitem {
+        width: 90%;
+    }
+
+    .aboutitem li {
+        font-size: 40px;
+    }
+
+    /* .aboutitem label, .aboutitem a {
+        font-size: 40px;
+    } */
+
+    .contacthr {
+        margin: 3vh 0 3vh 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .exptitle {
+        margin: 0 0 45px 0;
+    }
+
+    .projecthr {
+        margin: 4vh 0 4vh 0;
+    }
+
+    .contactsdiv {
+        margin: 3vh 0 0 0;
+    }
+
+    .educationdiv {
+        width: 90%;
+    }
+
+    .skillsimg {
+        height: 150px;
+        width: 150px;
+        margin: 15px;
+    }
+
+    .expdiv {
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+
+    .explogo {
+        height: 170px;
+        width: 170px;
+    }
+
+    .expp{ 
+        width: 270px;
+    }
+
+    .skillsh {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    .titlep {
+        font-size: 2.5rem;
+    }
+
+    .expdiv {
+        column-gap: 1%;
+        row-gap: 15%;
+        width: 90%;
+    }
+
+    .explogo {
+        height: 120px;
+        width: 120px;
+        margin-right: 15px;
+    }
+
+    .expp {
+        width: 200%;
+        font-size: 200%;
+    }
+
+    .projectdiv {
+        height: fit-content;
+        width: fit-content;
+        grid-template-columns: fit-content fit-content;
+        grid-template-rows: fit-content fit-content fit-content;
+        column-gap: 2%;
+        row-gap: 5%;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .projectitem {
+        height: fit-content;
+        width: fit-content;
+    }
+    
+    .morediv {
+        height: 100%;
+    }
+
+    .projectitem p {
+        font-size: 35px;
+    }
+
+    .projectimg {
+        width: 80%;
+    }
+
+    .morediv {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .projectdiv {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: fit-content;
+        
+    }
+
+    .projectstitle {
+        margin: 0 0 120px 0;
+    }
+
+    .sitem1 {
+        margin: 0 0 60px 0;
+    }
+
+    .footeritems {
+        justify-content: space-between;
+    }
+
+    .fspan {
+        display: none;
+    }
+
+    svg {
+        height: 30px;
+        width: 30px;
+    }
+
+    .educationdiv li {
+        flex-direction: column;
+        margin: 0 0 35vw 0;
+    }
+
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .profilepic {
+        height: 9rem;
+        width: 9rem;
+    }
+
+    .titlep {
+        font-size: 1.5rem;
+    }
+
+    #titlep {
+        font-size: 100%;
+    }
+
+    h2 {
+        font-size: 200% ;
+    }
+
+    li {
+        font-size: 20px;
+    }
+
+    .expdiv {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin: 0 0 60px 0;
+    }
+
+    .exptitle {
+        margin: 0 0 25px 0;
+    }
+
+    hr {
+        margin: 4vh 0 4vh 0;
+    }
+
+    .explogo {
+        height: 100px;
+        width: 100px;
+    }
+
+    .expp {
+        width: 100%;
+        font-size: 140%;
+    }
+
+    .workexphr {
+        margin: 10vh 0 5vh 0;
+    }
+
+    .skillsh {
+        font-size: 100%;
+    }
+
+    .skillstitle {
+        margin: 0 0 5% 0;
+    }
+
+    .skillsimg {
+        height: 100px;
+        width: 100px;
+    }
+
+    .sitem1 {
+        margin: 0 0 2vw 0;
+    }
+
+    .sitem2 {
+        margin: 2vw 0 0 0;
+    }
+
+    .projectdiv {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 2%;
+    }
+
+    .projectstitle {
+        margin: 0 0 10% 0;
+    }
+
+    .projectimg {
+        width: 60%;
+        margin: 0 0 10px 0;
+    }
+
+    .projectitem p {
+        width: 350px;
+        font-size: 160%;
+    }
+
+    .morediv {
+        align-items: center;
+        width: 100%;
+    }
+
+    .abouttitle {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .abouttext {
+        font-size: 10%;
+        word-wrap: break-word;
+    }
+
+    .aboutitem li {
+        font-size: 200%;
+        width: 50%;
+    }
+
+    .profile {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 0px;
+    }
+
+    .profilepic {
+        margin: 0;
+    }
+
+    .educationdiv {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    /* .expitems {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr;
+    } */
+/* 
+    .skillitem {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr;
+    } */
+
+    /* .skillspan {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 6fr;
+    } */
+
+    .section3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 320px) {
+    h2 {
+        font-size: 120%;
+    }
+
+    .profilepic {
+        height: 50px;
+        width: 50px;
+    }
+
+    #titlep {
+        font-size: 90%;
+    }
+
+    .exptitle li {
+        font-size: 90%;
+    }
+
+    .expitems {
+        flex-direction: column;
+    }
+
+    .expitems p {
+        font-size: 80%;
+    }
+
+    .explogo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .expp {
+        font-size: 120%;
+    }
+
+    .skillsimg {
+        height: 50px;
+        width: 50px;
+        margin: 0 0 30px 0;
+    }
+
+    .skillspan {
+        margin: 30px 0 0 0;
+    }
+
+    .skillitem {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectdiv {
+        width: 50%;
+    }
+
+    .projectimg {
+        height: 60px;
+        width: 60px;
+    }
+
+    /* .projectitem {
+
+    }  */
+
+    .projectitem p{
+        width: 60%;
+        font-size: 50%;
+        word-wrap: break-word;
+    }
+}
+
+/* @media (max-width: 1100px) {
+    header {
+        height: 30vh;
+    }
+
+    h1 {
+        font-size: 65px;
+    }
+
+    p {
+        font-size: 170%;
+    }
+} */
